@@ -1,0 +1,44 @@
+advanced working with functions
+
+Recursion in JavaScript refers to a programming technique where a function calls itself to solve a problem. 
+This approach is useful for tasks that can be broken down into similar subtasks, each of which can be solved 
+with the same logic.
+
+Key Components of Recursion:
+
+Base Case: A condition under which the recursive function stops calling itself to prevent infinite loops. 
+It provides an exit point for the recursion.
+Recursive Case: The part of the function where it calls itself with modified arguments, moving toward the 
+base case.
+
+When to Use Recursion
+Divide and Conquer Algorithms: Such as quicksort and mergesort.
+Tree Traversal: Navigating hierarchical data structures.
+Permutations and Combinations: Generating all possible arrangements.
+Mathematical Computations: Problems like calculating powers, greatest common divisors, etc.
+
+Task:
+Write a function calculateTotalSalaries(university) that:
+Loops through each faculty in the university.
+For each faculty, loops through each department.
+Adds up the salaries of all professors in all departments.
+Returns the total sum of all salaries.
+Expected Output:
+If you run:
+
+javascript
+Copy code
+console.log(calculateTotalSalaries(university));
+The expected output should be the sum of all salaries: 29300.
+
+Hint:
+You'll need to use a combination of Object.values() and loops (similar to the example code) to 
+navigate through the nested structure of the university object.
+
+solution , check script.Js 
+
+
+
+
+
+
